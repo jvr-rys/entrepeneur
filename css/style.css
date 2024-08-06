@@ -851,6 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item time {
   padding-bottom: 5px;
+  padding-bottom: 5px;  
   display: inline-block;
 }
 
@@ -1092,6 +1093,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
+}
+
+#supporters .supporter-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  transition: all 0.4s ease-in-out;
 }
 
 #supporters .supporter-logo:hover img {
