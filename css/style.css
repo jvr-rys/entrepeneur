@@ -656,6 +656,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about {
   background: url("../img/about-bg.jpg");
+  justify-content: center;
   background-size: cover;
   overflow: hidden;
   position: relative;
